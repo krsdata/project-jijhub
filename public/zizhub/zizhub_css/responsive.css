@@ -1,0 +1,485 @@
+/*@charset "utf-8";
+ CSS Document 
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 980px) {
+}
+@media only screen and (max-width: 800px) {
+    .container{width:100%;}
+}
+@media only screen and (max-width: 767px) {
+    .fileUploadImg{ width:200px; margin-left:auto; margin-right:auto;}
+    .upImg{ padding-bottom:40px;}
+    .billingCode img{ margin-left:10px; margin-bottom:32px;}
+    .billingCode{ position:static; padding: 0 30px;}
+    .payment{ margin-top:36px; width:100%;}
+    .chooseOrder {
+        margin-bottom: 80px;
+    }
+    .shipAddress{ padding: 0;}
+    .billing h4{ margin-left: 30px;}
+    .payInfo{ padding: 0 30px; line-height: 40px;}
+
+
+
+
+}
+@media only screen and (max-width: 640px) {
+    .shipAddress{padding:0;}
+    .inptSec, .payment{width:100%;}
+
+    .inptSec {
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+    }
+
+    .billing .billingCode .codeInputSec{ padding:0;}
+    .inptSec label{position:static; text-align:left; display:block;}
+    .logo{position:static; width:100%; text-align:center;display: block;}
+    .zpForm h2{margin:20px 0;}
+    .billingCode{margin-left:0; width:100%;}
+    .billingCode img{float:none; margin-bottom:20px;}
+    .billingType{text-align:center;}
+    .bt{margin:14px auto 0; display:block;}
+
+    ul.cards li{display:inline-block;}
+    .inptSec label .lb_text{display:none;}
+    .inptSec label span {
+        position: absolute;color:#ce0000;
+        right: 15px;
+        top: 4px;
+    }
+    .placeholder_text input::-webkit-input-placeholder {opacity:1;}
+
+    .placeholder_text input:-moz-placeholder {  Firefox 18- 
+
+        opacity:1;
+    }
+
+    .placeholder_text input::-moz-placeholder {   Firefox 19+ 
+
+        opacity:1;
+    }
+
+    .placeholder_text input:-ms-input-placeholder {  
+
+        opacity:1;
+    }
+    .shipAddress .inptSec{ padding: 0 30px;}
+    .inptSec input::-webkit-input-placeholder {
+        font-size:16px;
+    }
+
+    .inptSec input:-moz-placeholder { 
+        font-size:16px;
+    }
+
+    .inptSec input::-moz-placeholder { 
+        font-size:16px;
+    }
+
+    .inptSec input:-ms-input-placeholder {  
+        font-size:16px;
+    }
+    
+
+
+}
+@media only screen and (max-width: 360px) {
+    .ShowSec .phone_order{ width: 133px;}
+}*/
+
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width: 800px) {
+    .container{width:100%;}
+    #owl-demo_01 .item, #owl-demo_03 .item, #owl-demo_04 .item{ margin: 25px auto 60px;}
+    .owl-prev{ left: 0; position: relative;}
+    .owl-next{ right: 0; position: relative;}
+    .upImg{ padding: 0;}
+    #owl-demo_01 .owl-next{ right: 0;}
+}
+@media only screen and (max-width: 767px) {
+    .fileUploadImg{ width:200px; margin-left:auto; margin-right:auto;}
+    /*.upImg{ padding-bottom:40px;}*/
+    .billingCode img{ margin-left:10px; margin-bottom:0px;}
+    .billingCode{ position:static; padding: 0;width: 64%;}
+    .payment{width: 230px;}
+    .chooseOrder {  margin-bottom: 27px; }
+    .shipAddress{ padding: 0;}
+    .billing h4{ margin-left: 30px;color: #515151; line-height: 24px;}
+    .payInfo{ padding: 0 30px; line-height: 40px;}
+    .zizpicArtist .col-sm-12{ padding: 0;}
+
+.zizpicArtist h3, .threeWords, .upImgHD {
+    font-size: 18px;
+}
+.zizpic3 p{font-size: 16px;}
+.header_banner_01{display: block;}
+.header_banner_01 img{width: 100%}
+.header_banner{display: none;}
+
+.cards li img.mob{ display: block; width: 44px;}
+.cards li img.desk{ display: none;}
+.payInfo span.itemPrice{ width: 55px;}
+}
+@media only screen and (max-width: 640px) {
+    .chooseOrder{ font-size:18px;}
+    .shipAddress{padding:0;}
+    .shipAddress h3{  top:-18px;line-height:18px;}
+    .zizpicArtist.shipAddress h3::before{ bottom:0;}
+    .inptSec, .codeInputSec, .payment{width:100%;}
+    .inptSec label{position:static; text-align:left; display:block;}
+    .logo{position:static; width:100%; text-align:center;display: block; height:auto;}
+    .zpForm h2{margin:60px 0; font-size:40px;}
+    .billingCode{margin-left:0; width:100%; padding:12px 20px 0;}
+    .billingCode img{float:none; margin-bottom:35px;}
+    .billingType{text-align:center;}
+    .bt{margin:14px auto 0; display:block;}
+
+   /* ul.cards li{display:inline-block;}
+    .inptSec label .lb_text{display:none;}
+    .inptSec label span {
+        position: absolute;color:#ce0000;
+        right: 8px;
+        top: 35px;
+        font-size:40px;
+    }*/
+    ul.cards li {
+    display: inline-block;
+    line-height: 8px;
+}
+    .placeholder_text input::-webkit-input-placeholder {opacity:1;}
+.codeInputSec input, .ShowSec .phone_order{  width: 75%;}
+    .placeholder_text input:-moz-placeholder { /* Firefox 18- */
+
+        opacity:1;
+    }
+
+    .placeholder_text input::-moz-placeholder {  /* Firefox 19+ */
+
+        opacity:1;
+    }
+
+    .placeholder_text input:-ms-input-placeholder {  
+
+        opacity:1;
+    }
+    .shipAddress .inptSec{ padding: 0 30px;}
+    .inptSec input::-webkit-input-placeholder {
+        font-size:18px;
+    }
+
+    .inptSec input:-moz-placeholder { 
+        font-size:18px;
+    }
+
+    .inptSec input::-moz-placeholder { 
+        font-size:18px;
+    }
+.billingCode p{font-size: 27px; margin: 0; width:inherit !important}
+.codeInputSec{margin-top:10px;  padding: 10px;}
+.billingCode img{margin-bottom:10px;}
+    .inptSec input:-ms-input-placeholder {  
+        font-size:30px;
+    }
+
+
+    .upImg input, .inptSec input, .codeInputSec input{ height:78px; font-size:27px;}
+    .codeInputSec input[type="submit"]{ width: 25%;font-size:27px;}
+    .payInfo{ line-height:76px; font-size:32px;}
+    .zizpicArtist{ padding:0; margin-bottom:70px;  padding: 0 !important; }
+    .zizpicArtist .inptSec{ padding:0 30px;} 
+    .zizpicArtist h3, .threeWords, .upImgHD { position:relative; font-size: 18px;}
+    .zizpicArtist h3{ margin-bottom:25px; padding-top:32px}
+    /*.upImgHD:after{ border-bottom: 1px solid #e0e0e0;
+        bottom: 17px;
+        content: "";
+        left: 0;
+        position: absolute;
+        width: 100%;}  */  
+    .zizpicArtist h3::before {    bottom: 12px;}
+    .note{ font-size:16px;}
+    .payInfo span{ font-size:27px;}
+    .payInfo span.itemPrice{font-size:32px;}
+    .billing h4{ font-size:28px;color: #515151; line-height: 24px;}
+    .payment{ margin-top:50px;}
+    .billingCode img{ height:63px; width:63px;}
+    .billing{ padding-top:20px; margin-top:35px}
+    .inptSec input{ padding-left:30px; padding-right:30px;}
+    .upImg{ padding-bottom:0px;    border-top:0; padding-right:0}
+    .upImg input{ margin-bottom:20px; padding-left:30px; padding-right:30px;}
+    .shipAddress .inptSec{ margin-bottom:20px;}
+    .zizpicArtist.shipAddress .billing h3::before{ bottom: 17px;}
+    .zizpicArtist .billing h3{ margin-bottom:20px; line-height:normal;}
+    .threeWords{ margin-bottom:30px;}
+    .cards{ padding:13px 20px;}
+    .cards li{ width:88px; margin-right:20px;}
+   .bt {
+    height: 56px;
+    width: 346px;
+}
+.cards li img{display:inherit;}
+    .billingType .btn-paypal{ height:40px; background:url(../images/paypal_big.png) center center no-repeat;}
+   .byPhone {
+    background-position: 48px 6px;
+    background-size: auto auto;
+    font-size: 37px;
+    font-weight: bold;
+}
+    .byPhone a{ line-height:54px;}
+    .ShowSec p{ font-size:32px; margin-bottom:65px;}
+    .ShowSec ul li:first-child{ width: 65%;}
+    .ShowSec ul li:nth-child(2){ width: 35%;}
+
+    .ShowSec .phone_order{ height:78px; font-size:18px; width:100%;}
+    .ShowSec .btn-success{ height:78px; font-size:18px; width: 100%;}
+    .zizpicArtist.shipAddress{ margin-bottom:0;padding-bottom: 100px;}
+    .billingType{ padding:50px 0;}
+ 
+    .upImgHD span.uiTxt{ color:#797979; }
+    .uIHD{ background:#fff; display:inline-block; position:relative; z-index:9; padding:0 22px;}
+    .has-js .label_radio{ padding-left:45px; /*min-height:37px;*/}
+    .has-js .label_radio, .has-js label.r_on{ background-size:auto;}
+    .zizpicArtist.shipAddress h3 { top:-17px; line-height:18px;}
+    .zizpicArtist.shipAddress h3 span{ top:0;}
+    .bt.by_paypal_payment a{ padding: 18px 0; line-height:normal;}
+.fileUpload{width:100%; height: 37px;}
+    .he .has-js .label_radio{ padding-left: 0; padding-right: 45px;}
+    .he .billing h4{ margin-left:0; margin-right:30px !important; }
+    .zizpic3 .col-xs-4 { padding: 0 0 27px; width: 100%; border-right: 0; }
+    /*newly added 01_09_2015*/
+    .logo{ width:198px; margin: auto;}
+    .zizpic3{ margin-bottom: 0;}
+    .zizpicArtist.shipAddress .billing h3{ margin-bottom: 0; padding: 0;}
+    .he .zizpicArtist h3, .he .threeWords, .he .upImgHD{ font-size: 24px;}
+    .he .billingCode img{ margin-left: 0px; margin-right: 0;}
+    .chooseOrder label{margin-right: 8px;}
+#owl-demo_01 .item {    margin: 65px auto 55px;}
+#owl-demo_03 .item {    margin: 65px auto 55px;}
+#owl-demo_04 .item {    margin: 65px auto 55px;}
+.upImgHD {
+    font-size: inherit;
+    position: absolute;
+    top: -40px;
+}
+.pay {    display: block;    margin-top: 15px;}
+.owl-next{ margin-right: 6px !important;}
+.owl-prev{margin-left: 6px !important;}
+.footer_01{display:none !important;}
+.footer_02 {    display: inline-block !important;}
+.zizpic3 p{ font-size: 16px; border:none; padding-top:30px;}
+.inptSec label{display:none;}
+.billingCode > h3 {
+    padding-left: 0;
+    text-align: center;
+}
+.desktop_banner{display:block;}
+.mobile_banner{display: none;}
+.desktop_banner img{width: 100%;}
+.mobile_banner img {width: 100%;}
+
+
+.fileUpload span img{ display: none;}
+.fileUpload span img.mob {
+    display: inline-block;
+    margin-top: 5px;
+}
+.pick img{ display: none;}
+.pick img.mob{ display: inline-block;}
+.owl-prev img{ display: none;}
+.owl-next img{ display: none;}
+.owl-prev{ background:url(../img/items_mobile/Previous_mobile_dark.png) center center no-repeat; width: 45px; height: 44px;}
+.owl-next{ background:url(../img/items_mobile/Next_mobile_dark.png) center center no-repeat; width: 45px; height: 44px;}
+.codeInputSec input[type="submit"], .ShowSec .btn-success{ height: 78px;}
+.footer_02{ display: inline-block;}
+.zizpic3 p{ background: url("/zizhub/img/items_mobile/separator.png") no-repeat scroll center top;}
+
+.cards li:last-child a{ float: right;}
+.billingType .btn-paypal{ background:url("../img/items_mobile/pay_pal.png") no-repeat scroll center center;
+    height: 100%;}
+.byPhone{ background:url("../img/items_mobile/phone.png") no-repeat scroll center center; background-position: 30px 13px !important;}
+#owl-demo_01 .owl-controls, #owl-demo_03 .owl-controls, #owl-demo_04 .owl-controls {
+    top: 160px !important;
+} 
+.payInfo.delivery span.itemPrice{ font-size: 27px;}
+.ShowSec ul{ padding: 0 30px;}
+}
+
+@media only screen and (max-width: 567px) {
+.desktop_banner{display:none;}
+.mobile_banner{display: block; margin-bottom: 34px;}
+.desktop_banner img{width: 100%;}
+.codeInputSec input[type="submit"]{ border-radius: 0 5px 5px 0 !important;}
+.mobile_banner img {width: 100%;}
+//  .zpForm h2{ font-size:40px; margin:55px 0;}
+.zpForm h2 {         font-size: 50px;        margin: 50px 0;    }
+.inptSec label{display:none;}
+.pay {    display: block;    margin-top: 18px;}
+#owl-demo_02 .item > img {    width: 100%;}
+.chooseOrder { font-size: 18px;}
+.has-js .label_radio, .has-js label.r_on{ background-size:18px 18px;}
+    .has-js .label_radio{ padding-left:25px; min-height:18px;}
+    .chooseOrder span{ margin-right:0px;}
+    .zizpicArtist h3, .threeWords, .upImgHD { font-size: 18px;}
+    .uIHD{ padding:0 10px;}
+    .upImg input{ padding-left:15px; padding-right:15px;}
+    .upImg input, .inptSec input, .codeInputSec input { font-size: 18px; height: 50px;}
+    .upImg input {        margin-bottom: 15px;        padding-left: 15px;        padding-right: 15px;    }
+    .zizpicArtist.shipAddress h3 {        line-height: 14px;        top: -15px;    }
+    .inptSec label span{ font-size:36px; top:18px;}
+    .inptSec input{ padding-left:15px; padding-right:15px;}
+    .note {        font-size: 16px; margin-bottom:0;    }
+    .billingCode img { }
+    .codeInputSec input[type="submit"] { font-size: 18px;}
+    .codeInputSec input{ padding-left:15px;}
+    .billing h4{ font-size:20px; color: #515151; line-height: 24px;}
+    .payInfo span {        font-size: 22px;    }    
+    .payInfo span.itemPrice {        font-size: 30px;    }
+    .payInfo{ line-height:50px; font-size:20px;}
+    .cards li {        margin-right: 17px;        width: 66px;    }
+    /*.billingType .btn-paypal{ height:58px; background-size: 120px auto;}*/
+    billingType .btn-paypal {
+    background-size: 120px auto;
+    height: 48px;
+}
+    .byPhone a {        line-height: 58px;    }
+    
+    .ShowSec p { font-size: 16px; margin-bottom: 40px;}
+    .billingType {        padding: 40px 0;    } 
+     .ShowSec .phone_order, .ShowSec .btn-success {font-size: 18px; height: 50px;}
+    .inptSec input::-webkit-input-placeholder {        font-size:20px;    }
+    .inptSec input:-moz-placeholder {         font-size:20px;    }
+    .inptSec input::-moz-placeholder {         font-size:20px;    }
+    .inptSec input:-ms-input-placeholder {          font-size:20px;    }
+    .chooseOrder { }
+    .upImg {        padding-bottom: 10px;    }
+    /*.col-sm-4.bdr0 .upImg{ padding-bottom:0;}*/
+    .payment {        margin-top: 70px;    }
+    .billingCode img{ margin-bottom:20px; margin-top:20px}
+    .zizpicArtist .billing h3{ margin-bottom:10px;}
+    .payment {        margin-top: 40px;    }
+    .he .has-js .label_radio{ padding-left: 0; padding-right: 22px;}
+    /*Newly Added 01_09_2015*/
+.codeInputSec input[type="submit"]{ width:25%;}
+.codeInputSec input{ padding-left: 10px; padding-right: 0px; width: 75%;}
+.owl-next{ margin-right:50px !important;}
+.owl-prev{margin-left: 50px !important;}
+.footer_02 {    display: inline-block !important;}
+.cards li{width:auto;}
+.billingCode p{ width:auto;}
+.logo img{  width: 156px; max-width:inherit;}
+.billingCode > h3 {
+    padding-left: 0;
+    text-align: center;
+}
+.header_banner_01{display: block;}
+.header_banner_01 img{width: 100%}
+.header_banner{display: none;}
+.codeInputSec input[type="submit"], .ShowSec .btn-success{ height: 50px;}
+ul.cards li{ width: 33.33%; margin: 0; padding: 0 0.5%;}
+
+}
+@media screen and (max-width:480px){
+.bt {  background: #fff;  height: 50px;    margin-bottom: 16px;    margin-top: 0;    width: 188px;}
+.cards {    padding: 10px;}
+.pay {    display: block;    margin-top: 12px;}
+.codeInputSec{margin-top: 20px;}
+.codeInputSec input{width:76%;}
+.note{font-size:16px;}
+.owl-prev {
+    margin-left: 12px !important;
+}
+.owl-next {
+    margin-right: 12px !important;
+}
+
+.codeInputSec input {    width: 70%;}
+.codeInputSec input[type="submit"] {    width: 30%;}
+.upImgHD{position:absolute;}
+#owl-demo_01 .item {    margin: 65px auto 55px;width: 160px;}
+#owl-demo_03 .item {    margin: 65px auto 55px;width: 160px;}
+#owl-demo_04 .item {    margin: 65px auto 55px;width: 160px;}
+.upImgHD::before{display:none;}
+.zizpicArtist.shipAddress h3{  top: 0;}
+.upImg{border-top:none; padding:0}
+.upImgHD{ padding:0; top: -34px;}
+.zizpic3 p{font-size:16px; border:none; margin-bottom:25px}
+.byPhone { background-position:10px 14px !important;font-size: 28px;}
+.byPhone a {
+    line-height: 48px;
+}
+.byPhone {
+    background-position: 10px 10px !important;
+    font-size: 24px;
+}
+.ShowSec ul li:first-child{ width: 60%;}
+    .ShowSec ul li:nth-child(2){ width: 40%;}
+}
+@media only screen and (max-width: 479px) {
+.ShowSec .phone_order, .ShowSec .btn-success{ font-size: 14px;}
+.ShowSec ul li:first-child {
+    width: 55%;
+}
+.ShowSec ul li:nth-child(2) {
+    width: 45%;
+}
+}
+@media only screen and (max-width: 360px) {
+
+#owl-demo_02 .item > img { width:100%;}
+.topHeader{  margin-top: 20px;}
+.pay {    display: block;    margin-top: 12px;}
+.owl-next{ margin-right: 20px !important;}
+.footer_01{display:none !important;}
+.footer_02 { display: inline-block !important;}
+.note { font-size: 16px; margin-bottom:0;    }
+.owl-prev{margin-left: 20px !important;}
+.codeInputSec input{ padding-left: 10px; padding-right: 0px;        width: 50%;}
+.codeInputSec input[type="submit"]{   width: 47%;}
+.zizpic3 p{border:none; padding:0; margin-bottom:30px}
+.bt{ width:188px; height:42px; margin-top:0; margin-bottom:16px;}
+.cards {        padding: 5px 10px;    }
+.byPhone {
+    background-position: 10px 6px !important;
+    background-size: auto 28px !important;
+}
+.byPhone a {    line-height: 40px;}
+.inptSec label{display:none;}
+.codeInputSec{margin-top:10px;}
+.codeInputSec input{  width: 53%;}
+.billingCode p {    font-size: 18px;    line-height: 30px;    margin: 0;    width: 100%;}
+#owl-demo_03 .item{ width: 162px; margin: 65px auto 55px;}
+#owl-demo_04 .item{ width: 162px; margin: 65px auto 55px;}
+#owl-demo_01 .item{ width: 162px; margin: 65px auto 55px;}
+.fileUpload{width:100%}
+.zizpic3 p {
+    background-position: center bottom center;
+    border: medium none;
+    font-size: 16px;
+    line-height: 86px;
+    margin-bottom: -14px;
+    padding: 0;
+}
+.zizpicArtist h3{ margin-bottom:25px;}
+.billing h4 {    margin-left: 10px; color: #515151; line-height: 24px;}
+.payInfo{ padding: 0 10px;}
+.upImg1 {
+    border-top: 1px solid #ccc;
+}
+.upImg2 {
+    border-top: 1px solid #ccc;
+}
+.showcode{  right: 123px;}
+.codeInputSec input {    width: 65%;}
+.codeInputSec input[type="submit"] {    width: 35%;}
+}
+
+@media only screen and (max-width: 567px)
+{
+    .zpForm h2 {
+        font-size: 30px;
+           margin: 30px 0;
+    }
+}
